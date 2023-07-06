@@ -1,7 +1,9 @@
 pipeline {
-    agent {
-        label 'kelvin01'
+  agent {
+    kubernetes {
+      defaultContainer 'jnlp-slave'
     }
+  }
     stages {
         stage('Hello') {
             steps {
