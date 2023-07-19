@@ -31,11 +31,11 @@
     <distributionManagement>
         <snapshotRepository>
             <id>maven-snapshots</id>
-            <url>https://th-nexus-dev.aiaazure.biz/repository/maven-snapshots/</url>
+            <url>http://192.168.200.176:31077/repository/maven-snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>maven-releases</id>
-            <url>https://th-nexus-dev.aiaazure.biz/repository/maven-releases/</url>
+            <url>http://192.168.200.176:31077/repository/maven-releases/</url>
         </repository>
     </distributionManagement>
     <!-- bitbucket config end -->
